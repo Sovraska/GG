@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "111468ce09564bb88edc21979ff4bfb1"
+	name: "Achilles_94"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		111468ce09564bb88edc21979ff4bfb1: {
+			can_edit: 1b
+		}
+	}
+}

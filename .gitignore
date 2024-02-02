@@ -1,0 +1,9 @@
+.crash-reports 
+.local
+.logs
+.saves
+.schematics
+.imgui.ini
+.mincraftunstance.json
+.usercache.json
+.usernamecache.json
