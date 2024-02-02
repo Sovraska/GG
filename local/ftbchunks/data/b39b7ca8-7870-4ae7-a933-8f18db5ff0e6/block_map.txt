@@ -48,6 +48,7 @@
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
 #3B0AD1 minecraft:dripstone_block
+#548B83 create:encased_fan
 #B20267 vs_eureka:engine
 #009B14 minecraft:farmland
 #B9B269 minecraft:fire_coral_block
@@ -109,6 +110,7 @@
 #9EF0DB minecraft:sandstone_wall
 #299AA3 waystones:sandy_waystone
 #33130F create:scoria
+#D3CCFE create:shaft
 #5DBDF9 thermal:silver_ore
 #ED0389 occultism:silver_ore_deepslate
 #8638B9 minecraft:smooth_basalt

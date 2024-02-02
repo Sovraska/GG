@@ -1,24 +1,24 @@
-[11:53:26] [INIT] KubeJS 1902.6.2-build.50; MC 1902 forge
-[11:53:26] [INIT] Loaded plugins:
-[11:53:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:53:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:53:26] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[11:53:26] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[11:53:26] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
-[11:53:26] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[11:53:26] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
-[11:53:26] [INFO] Loaded script server_scripts:create/create.js in 0.0 s
-[11:53:26] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[11:53:26] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[11:53:26] [INFO] Loaded script server_scripts:test.js in 0.001 s
-[11:53:26] [INFO] Loaded 3/3 KubeJS server scripts in 0.012 s
-[11:53:26] [INFO] Scripts loaded
-[11:53:26] [INFO] Initializing recipe event...
-[11:53:28] [INFO] Processing recipes...
-[11:53:28] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/screw[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[11:53:29] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/bolt[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[11:53:29] [INFO] Found 11584 recipes in 223.2 ms
-[11:53:29] [INFO] Posted recipe events in 31.64 ms
-[11:53:29] [WARN] Error parsing recipe design_decor:item_application/millstones/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
-[11:53:29] [WARN] Error parsing recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
-[11:53:29] [INFO] Added 3 recipes, removed 6 recipes, modified 1 recipes, with 2 failed recipes in 28.16 ms
+[18:02:47] [INIT] KubeJS 1902.6.2-build.50; MC 1902 forge
+[18:02:47] [INIT] Loaded plugins:
+[18:02:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:02:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:02:47] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[18:02:47] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:02:47] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[18:02:47] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:02:47] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
+[18:02:47] [INFO] Loaded script server_scripts:create/create.js in 0.015 s
+[18:02:47] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[18:02:47] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[18:02:47] [INFO] Loaded script server_scripts:test.js in 0.001 s
+[18:02:47] [INFO] Loaded 3/3 KubeJS server scripts in 0.051 s
+[18:02:47] [INFO] Scripts loaded
+[18:02:47] [INFO] Initializing recipe event...
+[18:02:53] [INFO] Processing recipes...
+[18:02:53] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/screw[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:02:54] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/bolt[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:02:54] [INFO] Found 11584 recipes in 613.7 ms
+[18:02:54] [INFO] Posted recipe events in 178.0 ms
+[18:02:54] [WARN] Error parsing recipe design_decor:item_application/millstones/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[18:02:54] [WARN] Error parsing recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[18:02:54] [INFO] Added 3 recipes, removed 6 recipes, modified 3 recipes, with 2 failed recipes in 203.5 ms
