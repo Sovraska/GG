@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "06E6CB3F0746DEB8"
+	icon: "create:cogwheel"
+	id: "73A77F5D0E558D63"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Here we start our journey"
+				"So I can only wish you a &4GOOD GAME."
+			]
+			id: "1213AC78CF4B76C7"
+			rewards: [{
+				auto: "enabled"
+				id: "06CB4A513F087892"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "121B45672DDD3806"
+				type: "checkmark"
+			}]
+			title: "Beginning"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1213AC78CF4B76C7"]
+			description: [
+				"    you need some wood "
+				"    to start create mod"
+			]
+			icon: "minecraft:oak_log"
+			id: "365A9E307A8E1D84"
+			rewards: [{
+				auto: "enabled"
+				id: "6A4FDDEF467E38E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6D43EBE034403AC9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:overworld_natural_logs"
+						}
+					}
+					title: "Any #minecraft:overworld_natural_logs"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6C4EC3B305B7B448"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
+			title: "as always logs"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["365A9E307A8E1D84"]
+			description: [
+				"to begin with, we will extract andesite,"
+				""
+				"it can be generated at heights from "
+				"&464 to 128"
+			]
+			id: "63C0C5C2F85B5A11"
+			rewards: [{
+				auto: "enabled"
+				id: "23D1E2A05835305E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "31A980343EFEA01E"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63C0C5C2F85B5A11"]
+			id: "571C69ACD6727716"
+			rewards: [{
+				auto: "enabled"
+				id: "1AE7225A48D479B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "243B1C37659C5032"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["create"]
+	title: "Base"
+}

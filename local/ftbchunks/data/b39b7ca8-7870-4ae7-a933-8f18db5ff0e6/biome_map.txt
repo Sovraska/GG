@@ -1,7 +1,10 @@
+#109 minecraft:deep_cold_ocean
+#34D minecraft:deep_lukewarm_ocean
 #3DE minecraft:deep_ocean
 #008 minecraft:desert
 #79A minecraft:lukewarm_ocean
 #498 minecraft:lush_caves
+#4F1 minecraft:ocean
 #5FF minecraft:river
 #67B minecraft:savanna
 #2B7 minecraft:warm_ocean

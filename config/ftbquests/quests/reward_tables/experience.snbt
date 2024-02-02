@@ -1,0 +1,8 @@
+{
+	icon: "create:experience_nugget"
+	id: "64F5C9FD450F5DBD"
+	loot_size: 1
+	order_index: 0
+	rewards: [ ]
+	title: "experience"
+}

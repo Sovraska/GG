@@ -1,12 +1,12 @@
-[21:51:52] [INIT] KubeJS 1902.6.2-build.50; MC 1902 forge
-[21:51:52] [INIT] Loaded plugins:
-[21:51:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:51:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:51:52] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[21:51:52] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[21:51:52] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
-[21:51:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[21:51:52] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
-[21:51:52] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[21:51:52] [INFO] Loaded script client_scripts:example.js in 0.002 s
-[21:51:52] [INFO] Loaded 1/1 KubeJS client scripts in 0.025 s
+[11:47:07] [INIT] KubeJS 1902.6.2-build.50; MC 1902 forge
+[11:47:07] [INIT] Loaded plugins:
+[11:47:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:47:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:47:07] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[11:47:07] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[11:47:07] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[11:47:07] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[11:47:07] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
+[11:47:07] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[11:47:07] [INFO] Loaded script client_scripts:example.js in 0.002 s
+[11:47:07] [INFO] Loaded 1/1 KubeJS client scripts in 0.039 s

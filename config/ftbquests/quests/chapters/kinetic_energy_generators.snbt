@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kinetic_energy_generators"
+	group: "06E6CB3F0746DEB8"
+	icon: "create:large_water_wheel"
+	id: "5038B03A6F8A1503"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69E574447CCBBB5C"
+			optional: true
+			tasks: [
+				{
+					id: "4766ABCF574F7024"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "0B16F040E7917F08"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Water mill"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "232CD62CCF65148C"
+			optional: true
+			tasks: [
+				{
+					id: "211390A7A4C12E5E"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "0699FF8E416FF6A3"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Wind mill"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "7592B477E706559F"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				id: "6C1D064D06A23455"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "46DF943A077741C7"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "718D66C6243B8357"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "06E4D61502E9363D"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "7EF2B317CF467137"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "04C177AD6C6FA2FC"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "18373638C2EC2A16"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "Steam engine"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "37B4D7845482F301"
+			optional: true
+			tasks: [{
+				id: "5540E30A520C044E"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "Electric Motor"
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+	title: "Kinetic Energy Generators"
+}
